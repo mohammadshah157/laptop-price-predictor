@@ -29,8 +29,8 @@ Multiple regression architectures were tested on the train-test splits. Since th
 
 | Model Pipeline | R² Score | Mean Absolute Error (MAE) |
 | :--- | :---: | :---: |
-| **Linear Regression** | `0.8018`[cite: 1] | `0.1935`[cite: 1] |
-| **Decision Tree Regressor** | `0.8392`[cite: 1] | `0.1826`[cite: 1] |
+| **Linear Regression** | `0.8018` | `0.1935` |
+| **Decision Tree Regressor** | `0.8392` | `0.1826` |
 
 *Note: The Ensemble tree-based variants successfully capture non-linear configurations (e.g., balancing high RAM with premium GPU components) better than traditional standard linear baselines.*
 
@@ -38,11 +38,14 @@ Multiple regression architectures were tested on the train-test splits. Since th
 
 ## 🛠️ Project Structure & Execution Roadmap
 
-1. **Exploratory Data Analysis (EDA):** Univariate distribution visualizer (`sns.distplot`)[cite: 1], brand frequency charts, and continuous multi-feature correlation matrices (`df.corr(numeric_only=True)`)[cite: 1].
-2. **Feature Engineering Module:** Regex maps and lambda filters to format raw data[cite: 1].
-3. **Pipeline Fitting:** Structural data partitioning, categorical mapping, and model fitting[cite: 1].
+1. **Exploratory Data Analysis (EDA):** Univariate distribution visualizer (`sns.distplot`)[cite: 1], brand frequency charts, and continuous multi-feature correlation matrices (`df.corr(numeric_only=True)`).
+2. **Feature Engineering Module:** Regex maps and lambda filters to format raw data.
+3. **Pipeline Fitting:** Structural data partitioning, categorical mapping, and model fitting.
 
 ## 💻 Tech Stack & Libraries
-* **Core:** Python 3[cite: 1]
-* **Data Processing:** Pandas, NumPy[cite: 1]
-* **Visualization:** Matplotlib, Seaborn[cite: 1]
+* **Core:** Python 3
+* **Data Processing:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
+* **Machine Learning:** scikit-learn
+* **Deployment:** Streamlit
+
